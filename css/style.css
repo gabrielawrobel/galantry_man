@@ -749,10 +749,10 @@ h1#TituloMayoristas {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #4ba0eb; }
+  color: #29155c; }
 
 h2#TituloMayoristas {
-  color: #f0f1f1;
+  color: #b18857;
   margin-top: 10px;
   font-size: 24px; }
 
@@ -768,9 +768,9 @@ h2#TituloMayoristas {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #4ba0eb; }
+  background: #4f4763; }
   #Mayoristas .btn-get-started :hover {
-    background: #3291e6; }
+    background: #29155c; }
 
 @media (min-width: 1024px) {
   #Mayoristas {
