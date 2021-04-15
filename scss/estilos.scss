@@ -20,11 +20,10 @@ body {
   
   /** Top Bar **/
   #topbar {
-    background: #fff;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
-    z-index: 996;
+    z-index: 1000;
     margin-right: 30px;
   }
   
@@ -935,6 +934,7 @@ body {
     transition: 0.5s;
     color: #fff;
     background: #4ba0eb;
+    z-index: -100;
     :hover {
         background: #3291e6;
       }
@@ -1034,7 +1034,7 @@ body {
   #ContactForm{
     background-color: #f1f7fd;
   }
-  
+
   .form_mayorista .php-email-form {
     width: 100%;
   }
@@ -1210,12 +1210,13 @@ body {
   }
   
   /** Seccion Envios y Devoluciones **/
-  #EnviosDevoluciones h2 {
-    margin-top: 100px;
+    h2#EnvDev {
+    margin-top: 110px;
   }
   
   .envios_devoluciones .envios_devoluciones-list {
     padding: 0 100px;
+    margin-bottom: 20px;
   }
   
   .envios_devoluciones .envios_devoluciones-list ul {
@@ -1291,10 +1292,19 @@ body {
       padding: 0;
     }
   }
+
+  @media (min-width: 768px) {
+    h2#EnvDev {
+      margin-top: 120px;
+    }
+  }
+
+  
+
   
   /** Seccion Terminos y Condiciones **/
   #Terminos h2 {
-    margin-top: 100px;
+    margin-top: 110px;
   }
   
   #Terminos .section-title p{
@@ -1377,5 +1387,11 @@ body {
   @media (max-width: 1200px) {
     .terminos .terminos-list {
       padding: 0;
+    }
+  }
+
+  @media (min-width:768px){
+    #Terminos h2 {
+      margin-top: 120px;
     }
   }

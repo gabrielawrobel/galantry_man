@@ -16,11 +16,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Top Bar **/
 #topbar {
-  background: #fff;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
-  z-index: 996;
+  z-index: 1000;
   margin-right: 30px; }
 
 #topbar.topbar-scrolled {
@@ -768,7 +767,8 @@ h2#TituloMayoristas {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #4ba0eb; }
+  background: #4ba0eb;
+  z-index: -100; }
   #Mayoristas .btn-get-started :hover {
     background: #3291e6; }
 
@@ -991,11 +991,12 @@ h2#TituloMayoristas {
     padding: 0; } }
 
 /** Seccion Envios y Devoluciones **/
-#EnviosDevoluciones h2 {
-  margin-top: 100px; }
+h2#EnvDev {
+  margin-top: 110px; }
 
 .envios_devoluciones .envios_devoluciones-list {
-  padding: 0 100px; }
+  padding: 0 100px;
+  margin-bottom: 20px; }
 
 .envios_devoluciones .envios_devoluciones-list ul {
   padding: 0;
@@ -1057,9 +1058,13 @@ h2#TituloMayoristas {
   .envios_devoluciones .envios_devoluciones-list {
     padding: 0; } }
 
+@media (min-width: 768px) {
+  h2#EnvDev {
+    margin-top: 120px; } }
+
 /** Seccion Terminos y Condiciones **/
 #Terminos h2 {
-  margin-top: 100px; }
+  margin-top: 110px; }
 
 #Terminos .section-title p {
   font-size: .85rem;
@@ -1127,3 +1132,7 @@ h2#TituloMayoristas {
 @media (max-width: 1200px) {
   .terminos .terminos-list {
     padding: 0; } }
+
+@media (min-width: 768px) {
+  #Terminos h2 {
+    margin-top: 120px; } }
