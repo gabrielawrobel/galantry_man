@@ -16,15 +16,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Top Bar **/
 #topbar {
-  background-color: #fff;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
   z-index: 998;
   margin-right: 30px; }
-
-#topbar.topbar-scrolled {
-  top: -40px; }
 
 #topbar .social-links a {
   font-size: 18px; }
@@ -393,6 +389,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all ease-out 0.2s; }
 
 /** Seccion Catalogo **/
+h5.catalogo {
+  margin-top: 150px;
+  text-align: center; }
+
 @media (min-width: 768px) {
   h5.catalogo {
     display: none; } }
@@ -926,7 +926,7 @@ h2#TituloMayoristas {
 
 /** Seccion FAQ **/
 #faq h2 {
-  margin-top: 100px; }
+  margin-top: 110px; }
 
 .faq .faq-list {
   padding: 0 100px; }

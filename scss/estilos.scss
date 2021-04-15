@@ -20,7 +20,6 @@ body {
   
   /** Top Bar **/
   #topbar {
-    background-color: #fff;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
@@ -28,13 +27,8 @@ body {
     margin-right: 30px;
   }
   
-  #topbar.topbar-scrolled {
-    top: -40px;
-  }
-  
   #topbar .social-links a{
-    font-size: 18px;
-
+    font-size: 18px;;
   }
   
   #topbar .social-links a.facebook {
@@ -264,9 +258,7 @@ body {
     }
   }
 
- 
-  
-  /** Mobile Navigation **/
+   /** Mobile Navigation **/
   .mobile-nav-toggle {
     color: #2c4964;
     font-size: 28px;
@@ -483,6 +475,11 @@ body {
   }
 
   /** Seccion Catalogo **/
+  h5.catalogo{
+    margin-top: 150px;
+    text-align: center;
+  }
+  
   @media  (min-width: 768px) {
     h5.catalogo{
       display: none;
@@ -644,7 +641,6 @@ body {
       transform: rotate(360deg);
     }
   }
-  
   
   /** Footer **/
   #footer {
@@ -893,7 +889,6 @@ body {
     padding: 20px !important;
   }
   
-  
     /** Seccion Mayoristas **/
     #Mayoristas{
     width: 100%;
@@ -1031,7 +1026,6 @@ body {
   }
   
   /** Seccion Formulario Mayoristas **/
-
   #ContactForm{
     background-color: #f1f7fd;
   }
@@ -1129,7 +1123,7 @@ body {
   
   /** Seccion FAQ **/
   #faq h2 {
-    margin-top: 100px;
+    margin-top: 110px;
   }
   
   .faq .faq-list {
@@ -1300,9 +1294,6 @@ body {
     }
   }
 
-  
-
-  
   /** Seccion Terminos y Condiciones **/
   #Terminos h2 {
     margin-top: 110px;
