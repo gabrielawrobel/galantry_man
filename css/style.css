@@ -843,7 +843,10 @@ h2#TituloMayoristas {
   font-size: 15px;
   color: #848484; }
 
-/** Formulario Seccion Mayoristas **/
+/** Seccion Formulario Mayoristas **/
+#ContactForm {
+  background-color: #f1f7fd; }
+
 .form_mayorista .php-email-form {
   width: 100%; }
 
