@@ -20,10 +20,11 @@ body {
   
   /** Top Bar **/
   #topbar {
+    background-color: #fff;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
-    z-index: 1000;
+    z-index: 998;
     margin-right: 30px;
   }
   
